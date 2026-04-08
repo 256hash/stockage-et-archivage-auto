@@ -1,0 +1,9 @@
+Pour répondre à l'exigence du DSI (exécution à 23h45 tous les jours), nous utilisons le démon cron.
+
+    Ouvrez l'éditeur de table : crontab -e
+
+    Ajoutez la ligne suivante à la fin du fichier :
+
+Bash
+
+45 23 * * * /bin/bash /home/user/scripts/archive_toip.sh >> /var/log/backup_toip.log 2>&1
