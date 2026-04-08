@@ -15,7 +15,7 @@ ARCHIVE_DIR="$BASE_DIR/archive"
 LOG_FILE="/var/log/transfert_toip.log"
 
 # Paramètres FTP (OMV)
-FTP_HOST="192.168.x.x"
+FTP_HOST="192.168.20.36"
 FTP_USER="votre_utilisateur"
 FTP_PASS="votre_mot_de_passe"
 REMOTE_DIR="archives_toip"
